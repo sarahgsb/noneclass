@@ -1,0 +1,6 @@
+1 - Criando player 
+	1.1 - Importando sprite do player
+	1.1 - Criando o objeto player e dando a sprite a ele
+
+2 - Ajustando a dimensões da room e view/viewport da room
+	2.1
