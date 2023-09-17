@@ -3,6 +3,8 @@
 
 vspeed = 3;
 
+points = 10;
+
 // iniciando o alarme com tempo entre 1 e 3 segundos
 alarm[0] = random_range(1, 3) * room_speed;
 

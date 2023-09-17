@@ -59,6 +59,7 @@
     {"id":{"name":"obj_shoot_enemy1","path":"objects/obj_shoot_enemy1/obj_shoot_enemy1.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},},
     {"id":{"name":"spr_background_extra3","path":"sprites/spr_background_extra3/spr_background_extra3.yy",},},
     {"id":{"name":"obj_impact_shoot","path":"objects/obj_impact_shoot/obj_impact_shoot.yy",},},

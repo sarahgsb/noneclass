@@ -89,7 +89,18 @@
 	12.4 - Iniciar indo na direção do player 
 	12.5 - Apontando para a direção do player
 		12.5.1 - Fazer ele ganhar 90°
-	12.6 - Indo para a direção do player apennas se o player existir
+	12.6 - Indo para a direção do player apenas se o player existir
 
 13 - Criação procedural dos inimigos
+	13.1 - Fazer com que o objeto controlador crie inimigos de tempo em tempo
+		13.1.1 - Fazendo com que a posição x e y dos inimigos criados seja aleatoria
+
 14 - Criando o objeto controlador do jogo
+	14.1 - Criando pontos ao destruir o inimigo
+	
+15 - Criando o sistema de pontos
+	15.1 - Iniciando a variavel pontos
+	15.2 - Ganhando pontos ao destruir o inimigo
+	15.3 - Rodando o metodo de ganhar pontos apenas se a instancia do obj control existe
+	15.4 - Fazer com que inimigos diferentes me façam ganhar pontos diferentes
+	15.5 - Criando uma variavel nos inimigos chamado pontos e ele vai ter quantos pontos eles dao

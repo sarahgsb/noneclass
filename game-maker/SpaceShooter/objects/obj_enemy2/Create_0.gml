@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+points = 20
+
 // Criando a variavel de controle para saber se eu posso
 // me mover para os lados
 move_side = true; 
