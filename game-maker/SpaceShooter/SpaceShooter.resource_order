@@ -1,12 +1,13 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"obj_shoot_enemy2","order":3,"path":"objects/obj_shoot_enemy2/obj_shoot_enemy2.yy",},
     {"name":"obj_shoot_player","order":1,"path":"objects/obj_shoot_player/obj_shoot_player.yy",},
     {"name":"spr_enemy2","order":2,"path":"sprites/spr_enemy2/spr_enemy2.yy",},
     {"name":"spr_bright_shoot1","order":5,"path":"sprites/spr_bright_shoot1/spr_bright_shoot1.yy",},
     {"name":"spr_shoot_enemy2","order":3,"path":"sprites/spr_shoot_enemy2/spr_shoot_enemy2.yy",},
     {"name":"spr_shoot_enemy1","order":1,"path":"sprites/spr_shoot_enemy1/spr_shoot_enemy1.yy",},
-    {"name":"Object7","order":2,"path":"objects/Object7/Object7.yy",},
+    {"name":"obj_enemy2","order":2,"path":"objects/obj_enemy2/obj_enemy2.yy",},
     {"name":"spr_bright_enemy1","order":6,"path":"sprites/spr_bright_enemy1/spr_bright_enemy1.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_background_extra2","order":3,"path":"sprites/spr_background_extra2/spr_background_extra2.yy",},

@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object7",
-  "eventList": [],
+  "name": "obj_shoot_enemy2",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Enemies",
     "path": "folders/Objects/Enemies.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_shoot_enemy1",
+    "path": "objects/obj_shoot_enemy1/obj_shoot_enemy1.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy2",
-    "path": "sprites/spr_enemy2/spr_enemy2.yy",
+    "name": "spr_shoot_enemy2",
+    "path": "sprites/spr_shoot_enemy2/spr_shoot_enemy2.yy",
   },
   "spriteMaskId": null,
   "visible": true,
