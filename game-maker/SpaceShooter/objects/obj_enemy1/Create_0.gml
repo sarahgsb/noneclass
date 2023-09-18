@@ -8,6 +8,13 @@ points = 10;
 // iniciando o alarme com tempo entre 1 e 3 segundos
 alarm[0] = random_range(1, 3) * room_speed;
 
+//checando se estou colidindo com outro inimigo
+//se eu colidir com alguem, eu me destruo
+if (place_meeting(x, y, obj_enemy1)) {
+	//nao executando o evento destroy
+	instance_destroy(id, false)
+}
+
 //Criando o tiro se eu ja estou aparecendo na tela
 shooting = function() {
 	if (y >= 0) {

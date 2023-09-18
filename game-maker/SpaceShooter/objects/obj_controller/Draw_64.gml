@@ -3,7 +3,10 @@
 
 
 //desenhando os pontos
-draw_text(20, 20, points)
+draw_text(20, 20, "Points: " + string(points))
+
+//desenhando o level 
+draw_text(20,50, "Level: " + string(level))
 
 
 
