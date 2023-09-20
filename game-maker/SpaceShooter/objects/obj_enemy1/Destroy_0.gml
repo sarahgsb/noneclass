@@ -10,3 +10,7 @@ if (instance_exists(obj_controller)) {
 	//Rodando o metodo de ganhar pontos
 	obj_controller.earn_points(points);
 }
+
+
+//dropando o item
+drop_item(chance)

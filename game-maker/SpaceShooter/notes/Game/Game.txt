@@ -116,5 +116,60 @@
 	16.3 - Ganhando level quando eu ganhar um determinado numero de pontos
 	16.4 - Dobrando o valor de proximo level sempre que eu ganhar level
 	
+17 - Deixar o tiro do player "automatico"
+	17.1 - Criando o evento para o tiro
 	
-	111
+18 - Dando 'levels' para os tiros do player
+	18.1 - Criando o sistema de levels
+	18.2 - Criando o sistema de debug dos levels
+	18.3 - Fazendo o player dar o segundo tiro no level 2
+	
+19 - Criando o segundo tiro do player
+	19.1 - Importando a sprite
+	19.2 - Criando o objeto tiro2 player
+	19.3 - Fazer o tiro2 ser filho do tiro1
+	19.4 - Ajustando os efeitos do tiro 2
+	19.5 - Criando dois tiros por vez, uma em cada asa
+	19.6 - Fazendo o tiro mudar de direção
+		19.6.1 - Fazer o tiro ganhar uma direção
+		16.6.2 - Fazer o tiro inverter a direção horizontal
+	19.7  Criando o terceiro level do tiro
+		19.7.1 - Criando o tiro 1 e dois tiros 2
+	19.8 - Criando o quarto level do tiro
+	
+20 - Fazendo o player ganhar power up
+	20.1 - Criando a sprite do power up
+	20.2 - Criando o objeto do power up
+	20.3 - Criar a chance de cada power up
+	20.4 - Criar metodo level up no player
+	20.5 - Fazer o item colidir com o player e dar o power up a eleg
+    20.6 - Destruir o item ao colidar com o player
+	20.7 - Criando o impacto do tiro ao ser destruido
+	20.8 - Fazendo os inimigos terem uma chance de dropar o power up
+	20.9 - Fazendo o power up se mover
+	20.10 - Dando um efeito a mais nele
+		20.1 - Escolhendo a cor dele com base no tiro de power up
+	20.11 - Impedindo que o tiro saia da tela
+	20.12 - Fazendo o power up sumir sozinho
+	
+21 - Escudo do player
+	21.1 - Importar a sprite
+	21.2 - Criando o objeto
+	21.3 - Fazendo o player criar o escudo ao apertar a letra E
+	21.4 - Criar uma layer para o escudo
+	21.5 - Fazendo o escudo ficar na mesma posição que o player
+		21.5.1 - Corringindo o delay no movimento (OBS: nao precisa ajustar, o gamemaker ja atualizou pra se ajustar sozinho)
+	21.6 - Destruindo os tiros e os inimigos com o escudo
+	21.7 - Deixando o escudo um pouco maior
+	21.8 - Animando o escudo
+		21.8.1 - Parar a animação no final dela
+		21.8.2 - Depois de um tempo, voltar a imagem
+			21.8.2.1 - Ao final da animação, ativar um alarme em 2 segundos
+			21.8.2.2 - Executar o alarme, ele deve voltar uma imagem
+			21.8.2.3 - Se eu chegar no image_index 0, eu me destruo no proximo alarme
+	21.9 - Melhorando o efeito no escudo
+		21.9.1 - Dando uma transparencia para o escudo
+		21.9.2 - Dando o blendmode a ele
+			
+			
+			

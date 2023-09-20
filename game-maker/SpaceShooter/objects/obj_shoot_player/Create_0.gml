@@ -7,4 +7,5 @@ image_yscale = 3;
 
 //alarm[0] = 2;
 
+bright = spr_bright_shoot1
 colors = choose(c_yellow, c_aqua, c_fuchsia, c_lime); 
