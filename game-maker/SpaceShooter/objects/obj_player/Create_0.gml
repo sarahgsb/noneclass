@@ -5,7 +5,7 @@
 // Level tiro - 1    - Limite = 5  //10%
 
 
-velocity = 5;
+velocity = 7;
 
 wait_shoot = room_speed;
 
@@ -78,24 +78,36 @@ var _y_shoot = y -  (sprite_height / 3);
 }
 
 ///@method level_up(_chance)
-level_up = function(_chance) {
+level_up = function(_chance)
+{
 	if (_chance >= 90) {
-		if (_chance < 5) {
+		//aumentando o level do tiro se o level do tiro for menor que 5
+		if (level_shoot < 5) {
 			level_shoot += 1
-		} else if (_chance >= 45) {
-			if (wait_shoot > 20) {
+		}  else  {  //senao , caso eu esteja no level maximo, eu ganho pontos
+			//checando se o control existe
+			earning_points(100);
+		 }
+      } else if (_chance >= 45) {
+			//checando se a espera do tiro é maior que 15
+			if (wait_shoot > 15) {
+				//diminuindo a espera do tiro em 10%
 				wait_shoot *= 0.9
+			} else {//checando se o control existe
+			 earning_points(10);
 			}
-		} else {
+		} else {  //aumentando a velocidade em 0.5 se ela for menor que 10
 			if (velocity < 10) {
 				velocity += 0.5
-			}
+		} else {
+		 earning_points(10);
 		}
 	}
+}
 	
 
 
-}
+
 	
 ///@method lose_life();
 lose_life = function() {

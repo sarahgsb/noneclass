@@ -205,6 +205,13 @@
 	24.7 - Criando uma função para que qualquer um possa criar o screenshake e definir a força dele
 	24.8 - Criando o screenshake do player
 	
+25 - Ajustes gerais
+	25.1 - Randomizando o jogo
+	25.2 - Impedindo o player de sair da tela
+	25.3 - Fazendo os inimigos droparem o item depois de certa posição 
+	25.4 - Melhorando o sistema para ganhar level
+	25.5 - Ganhar pontos caso o player pegue o power up do tiro e já esteja no level máximo
+	
 	
 	
 	

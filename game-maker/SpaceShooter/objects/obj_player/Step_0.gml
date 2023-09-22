@@ -20,12 +20,18 @@ if (_shield and shields > 0) {
 }
 
 
-
-
-
-
+//se movendo para cima/baixo e para os lados
 y += (_down - _up) * velocity;
 x += (_right - _left) * velocity;
+
+//impedindo o player de sair da tela
+//if (x <= 64) x = 64;
+//if (x >= 1856) x = 1856;
+//if (y <= 64) y = -64;
+//if (y >= 1024) y = 1024;
+
+x = clamp(x, 64, 1856);
+y = clamp(y, 64, 1024);
 
 //  atirando, criando o tiro
 shooting();

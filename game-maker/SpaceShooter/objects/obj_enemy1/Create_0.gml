@@ -29,7 +29,7 @@ instance_create_layer(x - 3, y + sprite_height / 3, "Shoots", obj_shoot_enemy1);
 drop_item = function(_chance) {
 	var _valor = random(100);
 	//se o valor for menor que a chance, ele cria o item
-		if (_valor < _chance) {
+		if (_valor < _chance && y > 96) {
 			instance_create_layer(x, y , "Shoots", obj_powerup)
 		}
 }

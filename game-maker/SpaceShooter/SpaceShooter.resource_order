@@ -22,7 +22,7 @@
     {"name":"obj_shield","order":4,"path":"objects/obj_shield/obj_shield.yy",},
     {"name":"spr_explosion","order":1,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
-    {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_control","order":1,"path":"objects/obj_control/obj_control.yy",},
     {"name":"spr_background_extra3","order":4,"path":"sprites/spr_background_extra3/spr_background_extra3.yy",},
     {"name":"spr_shoot2_player","order":2,"path":"sprites/spr_shoot2_player/spr_shoot2_player.yy",},
     {"name":"obj_screenshake","order":2,"path":"objects/obj_screenshake/obj_screenshake.yy",},
