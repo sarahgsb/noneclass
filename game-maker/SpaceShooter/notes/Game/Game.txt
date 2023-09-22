@@ -170,6 +170,49 @@
 	21.9 - Melhorando o efeito no escudo
 		21.9.1 - Dando uma transparencia para o escudo
 		21.9.2 - Dando o blendmode a ele
-			
+	21.10 - Limitando a quantidade de escudo do player
+		21.10.1 - Criando a variável da quantidade de escudos
+		21.10.2 - Fazendo o player só criar escudo se a quantidade de escudo for maior que 0
+	21.11 - Exibindo os escudos para o usuário
+
+22 - Ajustes gerais
+	22.1 - Arrumando as mascaras de colisão
+	22.2 - Dando colisão entre o player e os inimigos
+	22.3 - Ajustando a transparência do power up
+	22.4 - Melhorando a dispersão dos inimigos conforme o level
+	
+23 - Fazendo o player morrer
+	23.1 - Dando vida ao player
+	23.2 - Criando o metodo perde vida
+	23.3 - Fazendo ele morrer se a vida for menor que ou igual a 0
+	23.4 - Fazendo o player criar a explosão
+	23.5 - Exibindo a vida do player
+	23.6 - Fazer o player perder vida ao trombar com o inimigo
+	23.7 - Criando uma tela de game over quando o jogador perder
+		23.7.1 - Criando a sequência de game over
+		23.7.2 - Instanciando a sequencia na room quando o player morrer
+			23.7.2.1 - Checando se o player existe pelo objeto control
+			23.7.2.2 - Se o player não existir então eu crio a minha sequence
+		23.7.3 - Reiniciando ao apertar enter
+		
+24 - Screenshake!
+	24.1 - Criar um objeto para fazer o screenshake
+	24.2 - Fazer a tela tremer
+	24.3 - Enfraquecendo o screenshake
+	24.4 - Destruindo o screnshake depois de um tempo
+	24.5 - Garantindo que ao se destruir, a posição do viewport volte ao original
+	24.6 - Criando o screenshake sempre que um inimigo for destruido
+	24.7 - Criando uma função para que qualquer um possa criar o screenshake e definir a força dele
+	24.8 - Criando o screenshake do player
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 			
 			

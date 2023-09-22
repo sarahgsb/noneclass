@@ -8,6 +8,7 @@
     {"name":"spr_shoot_enemy2","order":3,"path":"sprites/spr_shoot_enemy2/spr_shoot_enemy2.yy",},
     {"name":"spr_powerup","order":3,"path":"sprites/spr_powerup/spr_powerup.yy",},
     {"name":"spr_shoot_enemy1","order":1,"path":"sprites/spr_shoot_enemy1/spr_shoot_enemy1.yy",},
+    {"name":"spr_gameover","order":7,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"obj_enemy2","order":2,"path":"objects/obj_enemy2/obj_enemy2.yy",},
     {"name":"spr_shield","order":4,"path":"sprites/spr_shield/spr_shield.yy",},
     {"name":"spr_bright_enemy1","order":6,"path":"sprites/spr_bright_enemy1/spr_bright_enemy1.yy",},
@@ -24,5 +25,6 @@
     {"name":"obj_controller","order":1,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_background_extra3","order":4,"path":"sprites/spr_background_extra3/spr_background_extra3.yy",},
     {"name":"spr_shoot2_player","order":2,"path":"sprites/spr_shoot2_player/spr_shoot2_player.yy",},
+    {"name":"obj_screenshake","order":2,"path":"objects/obj_screenshake/obj_screenshake.yy",},
   ],
 }

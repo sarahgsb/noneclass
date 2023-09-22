@@ -6,7 +6,7 @@
 image_alpha -= 0.2;
 
 //me destruindo se meu alpha for menor ou igual a 0.5
-if (image_alpha <= 0.3) {
+if (image_alpha <= 0) {
 	instance_destroy(id, false)
 }
 

@@ -8,12 +8,15 @@ _right = keyboard_check(ord("D")) /*or keyboard_check(vk_right)*/;
 _shield = keyboard_check_pressed(ord("E"))
 //fire = keyboard_check_pressed(vk_space);
 
-// Criando o escudo
-if (_shield) {
+// Criando o escudo se eu apertei o E, e se eu tenho mais que 0 escudos
+if (_shield and shields > 0) {
 	var _escudo = instance_create_layer(x, y, "Shield", obj_shield);
 
 	//eu sou o seu alvo
 	_escudo.target = id;
+	
+	//diinuindo a quantidade de escudos
+	shields -= 1;
 }
 
 

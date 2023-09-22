@@ -11,6 +11,11 @@ wait_shoot = room_speed;
 
 level_shoot = 1;
 
+//sistema de vida
+life = 3;
+
+shields = 3;
+
 shooting = function() {
 	// convertendo em um metodo
 	var _fire = keyboard_check_pressed(vk_space);
@@ -90,5 +95,20 @@ level_up = function(_chance) {
 	
 
 
+}
+	
+///@method lose_life();
+lose_life = function() {
+	//se eu levei um tiro e não morri
+	if (life > 0) {
+		life -= 1;
+		
+		screenshake(5);
+	} else { //eu morri ao levar um tiro
+		instance_destroy();
+		
+		screenshake(20);
+
+	}
 }
 

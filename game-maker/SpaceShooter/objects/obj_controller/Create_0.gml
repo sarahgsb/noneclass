@@ -14,6 +14,9 @@ level = 1;
 //quantos pontos eu preciso para o proximo level
 next_level = 100
 
+//variavel de controle para o gameover
+gameover_seq = noone;
+
 //criando um metodo pra ganhar pontos
 ///@method earn_points(_points)
 earn_points = function(_points) {
@@ -31,7 +34,8 @@ earn_points = function(_points) {
 create_enemy = function () {
 	//criando os inimigos - definindo a posicao x e y
 	var _xx = irandom_range(64, 1888);
-	var _yy = irandom_range(-96, -1504);
+	//aumentando o limite com base no level do jogo
+	var _yy = irandom_range(-96, -1504 - (level * 800));
 
 
 	//criando o inimigo com base no level

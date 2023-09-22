@@ -13,4 +13,7 @@ if (instance_exists(obj_controller)) {
 
 
 //dropando o item
-drop_item(chance)
+drop_item(chance);
+
+//criando o screenshake
+screenshake(10);
