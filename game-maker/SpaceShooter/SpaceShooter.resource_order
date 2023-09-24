@@ -1,5 +1,8 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Boss","order":2,"path":"folders/Objects/Boss.yy",},
+    {"name":"Boss","order":1,"path":"folders/Sprites/Boss.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"obj_shoot_enemy2","order":3,"path":"objects/obj_shoot_enemy2/obj_shoot_enemy2.yy",},
     {"name":"obj_shoot_player","order":1,"path":"objects/obj_shoot_player/obj_shoot_player.yy",},
@@ -17,8 +20,10 @@
     {"name":"obj_shoot2_player","order":2,"path":"objects/obj_shoot2_player/obj_shoot2_player.yy",},
     {"name":"spr_background_extra2","order":3,"path":"sprites/spr_background_extra2/spr_background_extra2.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"obj_boss_minion","order":1,"path":"objects/obj_boss_minion/obj_boss_minion.yy",},
     {"name":"spr_background","order":2,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_shoot_enemy1","order":1,"path":"objects/obj_shoot_enemy1/obj_shoot_enemy1.yy",},
+    {"name":"obj_shoot_minion","order":2,"path":"objects/obj_shoot_minion/obj_shoot_minion.yy",},
     {"name":"obj_shield","order":4,"path":"objects/obj_shield/obj_shield.yy",},
     {"name":"spr_explosion","order":1,"path":"sprites/spr_explosion/spr_explosion.yy",},
     {"name":"obj_explosion","order":1,"path":"objects/obj_explosion/obj_explosion.yy",},
@@ -26,5 +31,6 @@
     {"name":"spr_background_extra3","order":4,"path":"sprites/spr_background_extra3/spr_background_extra3.yy",},
     {"name":"spr_shoot2_player","order":2,"path":"sprites/spr_shoot2_player/spr_shoot2_player.yy",},
     {"name":"obj_screenshake","order":2,"path":"objects/obj_screenshake/obj_screenshake.yy",},
+    {"name":"spr_boss_dark","order":1,"path":"sprites/spr_boss_dark/spr_boss_dark.yy",},
   ],
 }

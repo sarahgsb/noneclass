@@ -1,24 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-var _up, _down, _left, _right, _shield; // fire;
+var _up, _down, _left, _right; // fire;
 _up = keyboard_check(ord("W")) /*or keyboard_check(vk_up)*/;
 _down = keyboard_check(ord("S")) /*or keyboard_check(vk_down)*/;
 _left = keyboard_check(ord("A")) /*or keyboard_check(vk_left)*/;
 _right = keyboard_check(ord("D")) /*or keyboard_check(vk_right)*/;
-_shield = keyboard_check_pressed(ord("E"))
+
 //fire = keyboard_check_pressed(vk_space);
 
-// Criando o escudo se eu apertei o E, e se eu tenho mais que 0 escudos
-if (_shield and shields > 0) {
-	var _escudo = instance_create_layer(x, y, "Shield", obj_shield);
-
-	//eu sou o seu alvo
-	_escudo.target = id;
-	
-	//diinuindo a quantidade de escudos
-	shields -= 1;
-}
-
+make_shield();
 
 //se movendo para cima/baixo e para os lados
 y += (_down - _up) * velocity;
