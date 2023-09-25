@@ -6,6 +6,8 @@
 // o escudo dele nao existe mais
 target.my_shield = noone;
 
+audio_play_sound(sfx_shieldDown, 1, 0)
+
 
 
 

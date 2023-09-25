@@ -33,17 +33,17 @@ shooting();
 
 // Fazer com que o level do tiro suba sempre que aperta a seta pra cima
 // apenas se o level do tiro for menor que 5
-if (keyboard_check_pressed(vk_up)) {
-	if (level_shoot < 5) {
-		level_shoot += 1
-	}
-}
+//if (keyboard_check_pressed(vk_up)) {
+//	if (level_shoot < 5) {
+//		level_shoot += 1
+//	}
+//}
 
-//fazer co mque o level do tiro diminua em 1 sempre que eu apertar a seta pra baixo
+//fazer com que o level do tiro diminua em 1 sempre que eu apertar a seta pra baixo
 // e s o level do tiro for maior que 1
-if (keyboard_check_pressed(vk_down) && (level_shoot > 1)) {
-	level_shoot -= 1
-}
+//if (keyboard_check_pressed(vk_down) && (level_shoot > 1)) {
+//	level_shoot -= 1
+//}
 
 //show_debug_message(level_shoot)
 

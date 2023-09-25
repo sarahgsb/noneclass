@@ -9,3 +9,7 @@ image_yscale = image_xscale;
 
 //deixando meio tranparente
 image_alpha = 0.7;
+
+//criando o som do escudo nascendo
+audio_play_sound(sfx_shieldUp, 1, 0)
+

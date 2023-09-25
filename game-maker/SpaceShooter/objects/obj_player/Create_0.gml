@@ -26,6 +26,10 @@ shooting = function() {
 	
 	if (_fire /*&& alarm[0] == -1*/) {
 		//alarm[0] = wait_shoot;  //metodo pra esperar 1 segundo pra atirar
+	
+	//criando o som do tiro
+	audio_play_sound(sfx_laser2, 1, 0 );
+	
 	// criando o objeto tiro
 	// criar uma condição para atirar dependendo do level do tiro
 	// tiro do level 1

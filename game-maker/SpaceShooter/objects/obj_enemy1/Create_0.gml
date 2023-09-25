@@ -22,6 +22,9 @@ if (place_meeting(x, y, obj_enemy1)) {
 shooting = function() {
 	if (y >= 0) {
 instance_create_layer(x - 3, y + sprite_height / 3, "Shoots", obj_shoot_enemy1);
+	
+	//som do tiro
+	audio_play_sound(sfx_laser1, 1, 0)
 	}
 }
 

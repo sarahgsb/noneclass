@@ -13,7 +13,7 @@ if(keyboard_check(vk_enter)) {
 }
 
 //debug do estado atual
-show_debug_message(current_state)
+//show_debug_message(current_state)
 
 ///alternando os estados
 change_state();

@@ -11,11 +11,15 @@ Estado especial 1 - Ficar invulnerável enquanto criar 2 minions para recuperar 
 
 */
 
+//tocando a musica do boss
+audio_play_sound(snd_boss_fight, 0, 1);
+
+
 //iniciando o sistema de vida
-life_max = 1500 ;
+life_max = 1000;
 current_life = life_max;
 
-current_state = choose("state_01", "state_02", "state_03", "state_04");
+current_state = choose("state_01", "state_02", "state_03");
 
 delay_shoot = room_speed / 2; //meio segundo
 wait_shoot = 0;
@@ -30,6 +34,8 @@ create_minions = true;
 
 shoot_02 = function() {
 		instance_create_layer(x, y + 80, "Shoots", obj_shoot_enemy2);
+		//som do tiro
+		audio_play_sound(sfx_laser1, 1, 0)
 }
 
 ///@method tiro_01(true_direita_false_esquerda)
@@ -41,6 +47,8 @@ shoot_01 = function(_right) {
 		}
 	
 		instance_create_layer(x + _posx, y + 10, "Shoots", obj_shoot_enemy1);
+		//som do tiro
+		audio_play_sound(sfx_laser1, 1, 0)
 }
 
 //metodo do estado

@@ -14,10 +14,14 @@ points = 0;
 level = 1;
 
 //quantos pontos eu preciso para o proximo level
-next_level = 100
+next_level = 100;
 
 //variavel de controle para o gameover
 gameover_seq = noone;
+
+create_boss = true;
+
+complete_level = false;
 
 //criando um metodo pra ganhar pontos
 ///@method earn_points(_points)

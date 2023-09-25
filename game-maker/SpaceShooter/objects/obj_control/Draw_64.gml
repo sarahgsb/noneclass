@@ -3,10 +3,13 @@
 
 
 //desenhando os pontos
-draw_text(20, 20, "Points: " + string(points))
+//deixando transparente
+draw_set_alpha(0.5)
+draw_text(25, 20, "Points: " + string(points))
+draw_set_alpha(1);
 
 //desenhando o level 
-draw_text(20,50, "Level: " + string(level))
+//draw_text(20,50, "Level: " + string(level))
 
 
 
