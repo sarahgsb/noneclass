@@ -15,3 +15,6 @@ drop_item(chance);
 
 //criando o screenshake
 screenshake(10);
+
+//aumentando o numero de inimigos mortos
+global.total_enemies += 1;

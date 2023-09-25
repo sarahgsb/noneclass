@@ -17,7 +17,7 @@ repeat(life) {
 	//1 - 40 + 20 * 0 = 40
 	//2 - 40 + 20 * 1 = 60
 	//3 - 40 + 2- * 2 = 80
-	draw_sprite_ext(spr_player, 0, 40 + _space * _multiplier, 40,
+	draw_sprite_ext(spr_player, 0, 40 + _space * _multiplier, 60,
 				0.3, 0.3, 0, c_white, 0.5);
 				
 	//depois de desenhar, aumente o valor do multiplicador
@@ -28,7 +28,7 @@ repeat(life) {
 _multiplier = 0;
 //desenhando os escudos
 repeat(shields) {
-	draw_sprite_ext(spr_shield, 0, 40 + _space * _multiplier, 90,
+	draw_sprite_ext(spr_shield, 0, 40 + _space * _multiplier, 110,
 				0.3, 0.3, 0 , c_white, 0.5)
 	_multiplier += 1;
 }

@@ -18,5 +18,7 @@ shooting = function () {
 	if (y > 0 ) {
 	//criando o tiro
 	instance_create_layer(x, y + sprite_height / 3, "Shoots", obj_shoot_enemy2)
+	//som do tiro
+	audio_play_sound(sfx_laser1, 1, 0)
 	}
 }

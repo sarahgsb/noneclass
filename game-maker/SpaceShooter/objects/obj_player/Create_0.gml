@@ -16,6 +16,8 @@ life = 3;
 
 shields = 3;
 
+my_shield = noone;
+
 shooting = function() {
 	// convertendo em um metodo
 	var _fire = keyboard_check_pressed(vk_space);
@@ -24,6 +26,10 @@ shooting = function() {
 	
 	if (_fire /*&& alarm[0] == -1*/) {
 		//alarm[0] = wait_shoot;  //metodo pra esperar 1 segundo pra atirar
+	
+	//criando o som do tiro
+	audio_play_sound(sfx_laser2, 1, 0 );
+	
 	// criando o objeto tiro
 	// criar uma condição para atirar dependendo do level do tiro
 	// tiro do level 1
@@ -106,21 +112,42 @@ level_up = function(_chance)
 }
 	
 
-
-
-	
 ///@method lose_life();
 lose_life = function() {
+	//só vou perder vida se meu escudo é noone
+	if (!my_shield) {
 	//se eu levei um tiro e não morri
-	if (life > 0) {
-		life -= 1;
+		if (life > 0) {
+			life -= 1;
 		
-		screenshake(5);
-	} else { //eu morri ao levar um tiro
-		instance_destroy();
+			screenshake(5);
+		} else { //eu morri ao levar um tiro
+			instance_destroy();
 		
-		screenshake(20);
+			screenshake(20);
 
+			}
 	}
+}
+
+
+make_shield = function() {
+	// Criando o escudo se eu apertei o E, e se eu tenho mais que 0 escudos
+	//e meu escudo é noone
+	var _shield = keyboard_check_pressed(ord("E"))
+	if (_shield and shields > 0 and !my_shield) {
+		
+		var _escudo = instance_create_layer(x, y, "Shield", obj_shield);
+
+		//eu sou o seu alvo
+		_escudo.target = id;
+	
+		//avisando que esse escudo é o meu escudo
+		my_shield = _escudo;
+	
+		//diinuindo a quantidade de escudos
+		shields -= 1;
+	}
+
 }
 
